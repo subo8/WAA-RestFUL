@@ -17,4 +17,8 @@ public class StudentRepo {
     }
 
     public void create(Student s) { students.add(s);}
+
+    public void deleteById(int id) {
+        students.remove(id-1);
+    }
 }

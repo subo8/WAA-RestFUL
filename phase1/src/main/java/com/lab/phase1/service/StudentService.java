@@ -8,4 +8,6 @@ public interface StudentService {
     List<Student> findAll();
 
     void create(Student student);
+
+    void delete(int id);
 }

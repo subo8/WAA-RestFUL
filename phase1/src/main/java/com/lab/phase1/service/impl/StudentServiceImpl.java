@@ -28,4 +28,9 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public void create(Student student) { studentRepo.create(student);}
+
+    @Override
+    public void delete(int id) {
+        studentRepo.deleteById(id);
+    }
 }
